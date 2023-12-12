@@ -12,3 +12,4 @@ def cleaning(text):
         text = re.sub(r'([ ])\1+', r'\1', text)
         return text
     return text
+
